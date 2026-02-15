@@ -3,7 +3,7 @@
 .header{width:98vw;
 	height:95vh;
 	background-image:
-	url("images/pexels-fox-58267-1172675.jpg");
+	url("pexels-fox-58267-1172675.jpg");
 background-position:cover;padding-right:10px}
 	.main{display:flex;
 		justify-content:space-between;}
@@ -97,5 +97,6 @@ padding:20px 10px;}
 
 .four{background-color:black}
 .four img{padding-left:10px;}
+
 
 .four:hover{border:2px solid silver;}
