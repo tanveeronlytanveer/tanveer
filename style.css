@@ -1,0 +1,151 @@
+body{margin:0;
+font-family:arial;}
+.header_wrapper{width:100%;
+height:100%;
+background-image:url("Images/develoer.png");
+background-position:center;
+background-size:cover;
+}
+.header_content{display:flex;
+justify-content:space-between;
+}
+.header_logo{margin:10px 40px;}
+.header_logo h1{color:white;}
+.header_menu{}
+.header_menu nav ul{display:flex;}
+.header_menu li{
+	list-style-type:none; 
+}
+.header_menu li a{color:white;
+	padding:20px 20px;text-decoration:none;}
+.header_menu li a:hover{
+	border-bottom:3px solid white}
+.visual{display:flex;
+justify-content:center;}
+
+.visual_item{width:100%;
+height:82vh;
+display:flex;
+  flex-direction:column;
+  justify-content:center;
+align-items:center}
+.visual_title{text-align:center;color:white;}
+.visual_button{display:flex;
+justify-content:center;}
+button{
+	border:2px solid #184a68;border-radius:20px 
+	;width:20vw;color:white;
+height:6vh;background-color:#3093cf;}
+button:hover{border:2px solid white}
+.visual_text{text-align:center;color:white;}
+
+.best_item_wraper{background-color:#14338b
+	width:100vw;background-position:center;
+	height:100vh;}
+.best_item{
+color:black}
+.author{display:flex;
+	justify-content:center;
+align-items:center;
+	}
+.author img{
+width:20vw;
+	height:40vh;}
+.best_item_title{text-align:center; }
+.best_item_text{text-align:center;}
+.best_item_list{
+	display:flex;
+	column-gap:50px;
+	justify-content:center;
+	align-items:center;
+	}
+.best_item1{width:25vw;
+	height:30vh;
+background-color:#bf4800;
+color:white;
+border-radius:30px;
+border:5px solid transparent;
+}
+.best_item1:hover{border:5px solid black}
+.best_item1_pic{display:flex;
+	justify-content:center;
+	align-items:center;}
+.best_item1_pic img{padding-top:5px;
+	width:5vw;
+	height:8vh;}
+.best_item1_title{text-align:center;margin-top:-10px;
+	}
+.best_item1_text{text-align:center;margin-top:-10px}
+
+.best_item2{width:25vw;
+	height:30vh;background-color:#6f90f0;
+border-radius:30px;
+border:5px solid transparent}
+.best_item2:hover{border:5px solid black}
+.best_item2_pic{display:flex;
+	justify-content:center;
+	align-items:center;}
+.best_item2_pic img{padding-top:5px;
+	width:5vw;
+	height:8vh;}
+.best_item2_title{text-align:center;margin-top:-20px}
+.best_item2_text{text-align:center;margin-top:-10px;
+	margin-top:-10px}
+
+.best_item3{border:5px solid transparent;
+	width:25vw;
+	height:30vh;
+	background-color:#600000;
+	border-radius:30px;
+color:white;}
+.best_item3:hover{border:5px solid black}
+.best_item3_pic{display:flex;
+	justify-content:center;
+	align-items:center;}
+.best_item3_pic img{padding-top:5px;
+	width:5vw;
+	height:8vh;}
+.best_item3_title{text-align:center;margin-top:-10px;}
+.best_item3_text{text-align:center;margin-top:-10px}
+
+footer{background-color:#202020;
+	color:white;
+display:flex;
+justify-content:space-between;
+}
+.footer_left{}
+.left_footer_title{margin-left:30px}
+.footer_left_text{margin-left:30px}
+.left_footer_icon{}
+.left_footer_icon ul{display:flex;margin-left:-30px}
+.left_footer_icon ul li{list-style-type:none;}
+.left_footer_icon ul li a{text-decoration:none;
+	padding:0 20px;}
+
+.footer_right{display:flex;}
+
+.footer_right_col{}
+.footer_col1_title{margin-left:35px;}
+.footer_col1_list1{}
+.footer_col1_list1 ul{}
+.footer_col1_list1 ul li{list-style-type:none;}
+.footer_col1_list1 ul li a{text-decoration:none;
+	color:white}
+
+
+.footer_right_col{}
+.footer_col2_title{margin-left:35px;}
+.footer_col2_list2{}
+.footer_col2_list2 ul{}
+.footer_col2_list2 ul li{list-style-type:none;}
+.footer_col2_list2 ul li a{color:white;
+	text-decoration:none;}
+
+
+.footer_right_co{}
+.footer_col3_title{margin-left:35px;}
+.footer_col3_list3{}
+.footer_col3_list3 ul{}
+.footer_col3_list3 ul li{list-style-type:none;}
+.footer_col3_list3 ul li a{color:white;
+	text-decoration:none;}
